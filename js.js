@@ -1,4 +1,4 @@
-//Прятать ненужные таблицы
+
 function showShop(){																								
 	document.getElementById('shopping-list').style.display ='block';
 	document.getElementById('done-list').style.display = 'none';
@@ -16,7 +16,7 @@ function showDel(){
 }
 
 
-//Переменные основные
+
 var tableShop = document.getElementById('table-shop'),					
 tableDone 	= document.getElementById('table-done'),
 tableDel 		= document.getElementById('table-del'),
@@ -45,7 +45,7 @@ function outFromLocalStorage(arr){
 		}
 	}
 }
-//Конструктор создания новой покупки
+
 function Purchase(id, done, del, item, quantity, price) {					
 	this.id = id;
 	this.done = done;
@@ -69,7 +69,7 @@ document.getElementById('add').onclick = function (){
 	totalPrice();
 }
 
-//прост добавляем строку в таблице
+// Добавляем строку в таблице
 function addRow(targetTable){
 	tr 						= document.createElement('tr'),
 	tdNumber 			= document.createElement('td'),
