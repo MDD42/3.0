@@ -1,0 +1,139 @@
+.wrap-all{
+	width: 1100px;
+	margin: auto;
+	margin-top: 30px;
+}
+.wrap-lists-links{
+	width: 380px;
+	float: left;
+}
+hr{
+	border: none;
+	color: lightgrey;
+	background-color: lightgrey;
+	height: 1px;
+}
+input.radio, #del-list, #done-list{
+	display: none;
+}
+label{
+	font-size: 20px;
+	color: #007bff;
+	cursor: pointer;
+}
+input[type="radio"]:checked+.wrap-item-list-links{ 
+	background-color: #007bff;
+	color: white; 
+} 
+.wrap-item-list-links{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+}
+.wrap-one-list{
+	width: 680px;
+	margin-left: 20px;
+	float: right;
+}
+.wrap-all:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.list-header{
+	padding: 50px 30px;
+	border-radius: 5px;
+	background-color: #e9ecef;
+}
+.list-header h1{
+	margin-top: 0;
+}
+input::-webkit-input-placeholder {color: lightgrey;}
+input::-moz-placeholder          {color: lightgrey;}
+input:-moz-placeholder           {color: lightgrey;}
+input:-ms-input-placeholder      {color: lightgrey;}
+.form input, .form button{
+	width: 9%;
+	margin: 2.5% 2.5% 0;
+	border: 1px solid lightgrey;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+.form input:first-child{
+	width: 50%;
+	margin-left: 0;
+}
+#add{
+	margin-right: 0;
+	background-color: #28a745;
+	color: white;
+}
+.wrap-table{
+	margin-top: 30px;
+}
+tr{
+	text-align: center;
+	height: 50px;
+}
+.table tr:nth-child(odd){
+	background-color: #ececec;
+}
+.table tr:first-child{
+	color: white;
+	background-color: #212529;
+	text-align: center;
+}
+.total tr:last-child{
+	background-color: #dadada;
+}
+.table td:first-child{
+	font-weight: bold;
+}
+.col1{
+	width: 42px;
+}
+.col2{
+	width: 42px;
+}
+.col3{
+	width: 256px;	
+}
+.col4{
+	width: 92px;
+}
+.col5{
+	width: 92px;	
+}
+.col6{
+	width: 122px;	
+}
+.edit, .remove{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	color: white;
+	border: none;
+	margin: 0 10px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+.remove{
+	background-color: #dc3545;
+	margin-right: 0;
+}
+.edit{
+	margin-left: 0;
+	background-color: #ffc107;
+}
+#totalPriceShop, #totalPriceDone, #totalPriceDel{
+	text-align: right;
+}
+.table tr.active{
+	background-color: #abdde5;
+}
+#update{
+	margin-right: 0;
+	background-color: #17a2b8;
+	color: white;
+}
